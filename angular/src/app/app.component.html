@@ -1,0 +1,8 @@
+Response from API call: 
+ <ul>
+  <li>Url: {{ response.items[0].fields.url }}</li>
+  <li>SEO: {{ response.items[0].fields.seo | json }}</li>
+  <li>Description: {{ response.includes.Entry[0].fields.description }} </li>
+  <li>IsNoIndex: {{ response.includes.Entry[0].fields.isNoIndex }} </li>
+ </ul>
+ 
